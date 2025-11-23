@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "@payloadcms/admin-bar": "3.64.0",
+    "@payloadcms/db-postgres": "3.64.0",
+    "@payloadcms/db-vercel-postgres": "^3.64.0",
     "@payloadcms/email-nodemailer": "3.64.0",
     "@payloadcms/live-preview-react": "3.64.0",
     "@payloadcms/next": "3.64.0",
@@ -30,6 +32,7 @@
     "@payloadcms/plugin-form-builder": "3.64.0",
     "@payloadcms/plugin-seo": "3.64.0",
     "@payloadcms/richtext-lexical": "3.64.0",
+    "@payloadcms/storage-vercel-blob": "^3.64.0",
     "@payloadcms/translations": "3.64.0",
     "@payloadcms/ui": "3.64.0",
     "@radix-ui/react-accordion": "1.2.11",
@@ -63,8 +66,7 @@
     "sonner": "^1.7.2",
     "stripe": "18.5.0",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7",
-    "@payloadcms/db-postgres": "3.64.0"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
