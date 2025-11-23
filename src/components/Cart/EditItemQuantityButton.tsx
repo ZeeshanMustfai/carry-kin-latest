@@ -50,10 +50,13 @@ export function EditItemQuantityButton({ type, item }: { item: CartItem; type: '
           e.preventDefault()
 
           if (item.id) {
+            const numericId = Number(item.id)
+            if (Number.isNaN(numericId)) return
+
             if (type === 'plus') {
-              incrementItem(item.id)
+              incrementItem(numericId)
             } else {
-              decrementItem(item.id)
+              decrementItem(numericId)
             }
           }
         }}
